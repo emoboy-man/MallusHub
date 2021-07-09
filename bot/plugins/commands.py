@@ -1,3 +1,5 @@
+COMEND PY
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
@@ -38,7 +40,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/lazio_beats"
+                                    '🤩 OUR CHANNEL 🤩', url="https://t.me/Mallushubb"
                                 )
                         ]
                     ]
@@ -57,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/lazio_beats"
+                                    'Developers', url="https://t.me/Mallushubb"
                                 )
                         ]
                     ]
@@ -76,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/lazio_beats"
+                                    'Developers', url="https://t.me/Mallushubb"
                                 )
                         ]
                     ]
@@ -89,14 +91,11 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('OUR GROUP ⚡', url='https://t.me/malluhubbmovies'),
+        InlineKeyboardButton('OUR CHANNEL 🤩', url ='https://t.me/Mallushubb')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
-    
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(
@@ -112,8 +111,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Bot Creator ⚡', callback_data='start'),
+        InlineKeyboardButton('About 📢', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -133,7 +132,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Bot Creator⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
