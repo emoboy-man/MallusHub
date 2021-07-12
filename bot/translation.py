@@ -4,12 +4,12 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
+    START_TEXT = """<b>Hey {}👋!!</b>
 
 <b>Am Just A Advance Auto Filter Bot....🤩
 Sorry You Can't Add Me To Your Group..!</b>
 
-Team Mallu Hub Movies🎥
+<b>Ⓜ️Team Mallu Hub Movies</b>
 <b>@malluhubbmovies</b>
 """    
     
@@ -20,7 +20,7 @@ Team Mallu Hub Movies🎥
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code>MH Filter Bot</code>
     
-<b>➥ Developer</b> : <b><a href="https://t.me/lazio_beats">LaZio BeatZ 🎯</a></b>
+<b>➥ Developer</b> : <b><a href="https://t.me/lazio_beats">AbHijith</a></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
